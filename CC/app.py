@@ -19,6 +19,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
+#To Open Dataset 
 with open('./content/umkm.json', encoding='utf-8') as content:
     dataset = json.load(content)
 
@@ -67,12 +68,12 @@ input_shape = x_train.shape[1]
 vocabulary = len(tokenizer.word_index)
 output_length = le.classes_.shape[0]
 
+# Open Pickle File
 words = pickle.load(open('./pkl/words.pkl', 'rb'))
 classes = pickle.load(open('./pkl/classes.pkl', 'rb'))
 le = pickle.load(open('./pkl/le.pkl', 'rb'))
 tokenizer = pickle.load(open('./pkl/tokenizers.pkl', 'rb'))
 
-# Import the necessary libraries
 
 # Load the model from the local file
 model = tf.keras.models.load_model('./model/chatbot.h5', compile=False)
