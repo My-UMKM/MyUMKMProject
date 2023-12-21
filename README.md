@@ -10,12 +10,12 @@ Team Members:
 7. (MD) A700BSY2098 – Hendra Lijaya – Universitas Pradita
 
 All Material for Apps Development:
-- :black_circle: Google Collab
-- :black_circle: Visual Studio Code
-- :black_circle: Figma
-- :black_circle: Android Studio
-- :black_circle: Firebase (ML, Firestore, Authentication)
-- :black_circle: Docker
-- :black_circle: Cloud Storage Bucket
-- :black_circle: Cloud Run
-- :black_circle: Postman
+- Google Collab
+- Visual Studio Code
+- Figma
+- Android Studio
+- Firebase (ML, Firestore, Authentication)
+- Docker
+- Cloud Storage Bucket
+- Cloud Run
+- Postman
