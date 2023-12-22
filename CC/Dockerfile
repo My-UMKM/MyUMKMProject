@@ -10,12 +10,14 @@ WORKDIR $APP_HOME
 
 COPY . ./
 
+# Create New Directory Model
 RUN mkdir model
-
+# Create New Directory Content
 RUN mkdir content
 
+# Download Model From Bucket
 ADD https://storage.googleapis.com/myumkm_bucket/chatbot.h5 model/.
-
+# Download Dataset From Bucket
 ADD https://storage.googleapis.com/myumkm_bucket/umkm.json content/.
 
 RUN pip install -r requirements.txt
