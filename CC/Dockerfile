@@ -10,6 +10,7 @@ WORKDIR $APP_HOME
 
 COPY . ./
 
+# Create New Directory Model
 RUN mkdir model
 
 RUN mkdir content
