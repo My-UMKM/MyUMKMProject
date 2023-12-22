@@ -15,6 +15,7 @@ RUN mkdir model
 # Create New Directory Content
 RUN mkdir content
 
+# Download Model From Bucket
 ADD https://storage.googleapis.com/myumkm_bucket/chatbot.h5 model/.
 
 ADD https://storage.googleapis.com/myumkm_bucket/umkm.json content/.
