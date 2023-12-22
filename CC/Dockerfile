@@ -12,7 +12,7 @@ COPY . ./
 
 # Create New Directory Model
 RUN mkdir model
-
+# Create New Directory Content
 RUN mkdir content
 
 ADD https://storage.googleapis.com/myumkm_bucket/chatbot.h5 model/.
